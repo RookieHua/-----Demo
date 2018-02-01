@@ -1,0 +1,12 @@
+<view class='containerView'>
+<view class='titleTxt'>星级点评</view>
+<!--星级View  -->
+<view class='starView'>
+<block wx:for='{{starArr}}' wx:key>
+<image class='starImg' src='{{score > item ?selectedSrc : normalSrc}}' bindtap='starClick' data-score='{{item+1}}'></image>
+</block>
+</view>
+<!--  -->
+<view class='txt'>评分为：{{score}}分</view>
+
+</view>

@@ -1,0 +1,32 @@
+.containerView{
+  margin: 40rpx;
+  width: 100%-80rpx;
+}
+.titleTxt{
+  font-family: "Microsoft YaHei";
+  font-size: 22px;
+  font-weight: bold;
+  color: #484848;
+  text-align: center;
+}
+.txt{
+  font-family: "Microsoft YaHei";
+  font-size: 18px;
+  font-weight: bold;
+  color: #484848;
+  text-align: center;
+}
+/*星级点评  */
+.starView{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50rpx;
+  margin-bottom: 120rpx;
+}
+.starImg{
+  margin: auto  20rpx;
+  width: 65rpx;
+  height: 65rpx;
+}
+
